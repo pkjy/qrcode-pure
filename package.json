@@ -1,5 +1,5 @@
 {
-  "name": "qrcode-tool",
+  "name": "qrcode-pure",
   "version": "0.0.1",
   "description": "qrcode encode and decode",
   "main": "index.js",
