@@ -59,4 +59,4 @@ function decode(){
 ```
 
 ### 在线体验
-[qrcode-pure尝试](https://pkjy.github.io/gallery/qrcode-pure)
+[qrcode-pure尝试](https://pkjy.github.io/#/gallery/qrcode-pure)
