@@ -16,8 +16,9 @@ npm i install --save qrcode-pure
 
 ##### 返回值
 调用`qrdecode`解码后返回的值为一个对象。
+
 |参数|备注|
-|-|:-:|-|
+|-|:-:|
 |text|解码后的值|
 |canvas|解析的canvasDOM|
 
@@ -27,8 +28,9 @@ npm i install --save qrcode-pure
 
 ##### 返回值
 调用`qrencode`编码后返回的值为一个对象。
+
 |参数|备注|
-|-|:-:|-|
+|-|:-:|
 |canvas|编码后的的canvasDOM|
 
 ### 使用
