@@ -32,8 +32,22 @@ npm i install --save qrcode-pure
 |canvas|编码后的的canvasDOM|
 
 ### 使用
+#### 全部引入
 
-#### 解码
+``` javascript
+// 全部引入
+import qrcodePure from 'qrcode-pure'
+
+// 解码
+qrcodePure.QRDecode()
+
+// 编码
+qrcodePure.QREncode()
+
+```
+
+#### 单独引入
+##### 解码
 在项目中使用：(解析单张二维码)
 ``` html
 <!-- template -->
@@ -120,7 +134,7 @@ handleChange(e) {
 }
 ```
 
-#### 编码
+##### 编码
 
 在项目中使用：(vue单文件组件为例)
 ``` html

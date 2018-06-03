@@ -1,3 +1,4 @@
 module.exports = {
-  QRDecode: require('./lib/qrdecode.js')
+  QRDecode: require('./lib/qrdecode.js'),
+  QREncode: require('./lib/qrencode.js')
 };

@@ -1,6 +1,6 @@
 {
   "name": "qrcode-pure",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "qrcode encode and decode",
   "main": "index.js",
   "scripts": {
