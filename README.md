@@ -12,6 +12,7 @@ npm i install --save qrcode-pure
 ```
 
 ### 使用
+#### 解码
 在项目中使用：(vue单文件组件为例)
 ``` html
 <!-- template -->
@@ -56,6 +57,29 @@ function decode(){
   // result返回值为解码后的值
   console.log('result', result)
 }
+```
+
+#### 编码
+
+在项目中使用：(vue单文件组件为例)
+``` html
+<!-- template -->
+<el-button @click="encode" type="primary" size="mini" class="m-l_2">编码</el-button>
+```
+``` javascript
+// 引入解码函数
+
+// script 
+import qrencode from 'qrcode-pure/lib/qrencode'
+
+// methods
+encode() {
+  // 调用 qrencode 编码函数，可接受一个对象参数
+  // 参数具体内容请参考项目[qrcode](https://github.com/nuintun/qrcode)，在此不再赘述。
+  // 返回值为二维码canvas的DOM
+  let result = qrencode({ text: 'https://pkjy.github.io' })
+}
+
 ```
 
 ### 在线体验

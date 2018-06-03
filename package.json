@@ -1,6 +1,6 @@
 {
   "name": "qrcode-pure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "qrcode encode and decode",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.10.2",
-    "webpack-cli": "^3.0.0"
+    "webpack-cli": "^3.0.1"
   }
 }
